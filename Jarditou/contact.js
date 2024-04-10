@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function (){ /* L'évènement DOMC
         prenom = document.getElementById("prenom").value
         sexeF = document.getElementById("sexeF") /* Ne pas mettre de ".value" pour les boutons radios !!!!! */
         sexeM = document.getElementById("sexeM") /* Ne pas mettre de ".value" pour les boutons radios !!!!! */
-        date_de_naissance = document.getElementById("datedeNaissance").value
+        date_de_naissance = document.getElementById("date").value
         code_postal = document.getElementById("code_postal").value
         email = document.getElementById("email").value
         sujet = document.getElementById("sujet").value

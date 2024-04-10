@@ -2,36 +2,61 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Tableau des ventes</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
+  <div class="container">
     
   <header>
-    <div class="tete">
-        <div><img class="logo" src="jarditou_logo.jpg" alt="Jarditou logo" width="250"></div>
-        <span class="jardin">Tout le jardin</span>
+    <div class="row">
+        <div class="col-8"><img src="jarditou_logo.jpg" alt="Jarditou logo" width="250"></div>
+        <div class="col-4"><span class="text-right"><span class="display-4">Tout le jardin</span></div></span>
+    </div> 
+  </header>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Jarditou.com</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="exercice_Jarditou.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tableau.html">Tableau</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Votre promotion" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Rechercher</button>
+        </form>
+      </div>
     </div>
-</header>
+  </nav>
 
-<nav>
-    <ul id="liste_haut" >
-        <li class="espace_liste"><a href="exercice_Jarditou.html" title="Paged'accueil">Accueil</a></li>
-        <li class="espace_liste"><a href="tableau.html" title="Tableau">Tableau</a></li>
-        <li class="espace_liste"><a href="contact.html" title="Contactez-nous">Contact</a></li>
-    </ul>
+  <div class="row">
+    <img src="promotion.jpg" class="img-fluid" alt="Promotion sur les lames de terrasses"></div>
+    <!-- <img src="promotion.jpg" alt="Promotion sur les lames de terrasses"> -->
+  
+  <!-- <caption>
+    <h1>Tableau</h1>
+    <hr>
+  </caption> -->
 
-    <img id="promotion" src="promotion.jpg" alt="Promotion sur les lames de terrasses">
-</nav>
-  <div class="defilement">
-    <table class="tableau">
-        <caption>
-          <h1>Tableau</h1>
-          <hr>
-        </caption>
+
+
+    <table class="table">
+        
         <thead>
-          <tr>
+          <tr class="display-6 table-secondary">
             <th>Photo</th>
             <th>ID</th>
             <th>Catégorie</th>
@@ -41,7 +66,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr class="table-warning">
             <td><img src="7.jpg" alt="Barbecues Aramis" width="120"></td>
             <td>7</td>
             <td>Barbecues</td>
@@ -57,7 +82,7 @@
             <td>244.99 euros</td>
             <td>Noir</td>
           </tr>
-          <tr>
+          <tr class="table-warning">
             <td><img src="11.jpg" alt="Barbecues Clatronic" width="120"></td>
             <td>11</td>
             <td>Barbecues</td>
@@ -73,7 +98,7 @@
             <td>88.00 euros</td>
             <td>Noir</td>
           </tr>
-          <tr>
+          <tr class="table-warning">
             <td><img src="13.jpg" alt="Brouette Green" width="120"></td>
             <td>13</td>
             <td>Brouette</td>
@@ -83,16 +108,30 @@
           </tr>
         </tbody>
       </table>
-  </div>
+  
       <br>
     
       <footer>
-        <ul id="liste_bas">
-            <li class="espace_liste">Mentions légales</li>
-            <li class="espace_liste">Horaires</li>
-            <li class="espace_liste">Plan du site</li>
-        </ul>
-    </footer>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+              <a class="navbar text-white" href="#">Mentions légales</a>
+                    </li>
+                <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Horaires</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Plan du site</a>
+                  </li>
+                </ul>
+              </div>
+            </div> 
+          </nav>
+      </footer>
 
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -2,81 +2,166 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Contactez-nous</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
+    <div class="container">
     
-    <header>
-        <div class="tete">
-            <div><img class="logo" src="jarditou_logo.jpg" alt="Jarditou logo" width="250"></div>
-            <span class="jardin">Tout le jardin</span>
-        </div>
-    </header>
+        <header>
+            <div class="row">
+                <div class="col-8"><img src="jarditou_logo.jpg" alt="Jarditou logo" width="250"></div>
+                <div class="col-4"><span class="text-right"><span class="display-4">Tout le jardin</span></div></span>
+            </div> 
+        </header>
 
-    <nav>
-        <ul id="liste_haut" >
-            <li class="espace_liste"><a href="exercice_Jarditou.html" title="Paged'accueil">Accueil</a></li>
-            <li class="espace_liste"><a href="tableau.html" title="Tableau">Tableau</a></li>
-            <li class="espace_liste"><a href="contact.html" title="Contactez-nous">Contact</a></li>
-        </ul>
-
-        <img id="promotion" src="promotion.jpg" alt="Promotion sur les lames de terrasses">
-    </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Jarditou.com</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="exercice_Jarditou.html">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tableau.html">Tableau</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Votre promotion" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Rechercher</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     <br>
 
-    <b>Contact</b><hr>
+    <div class="row">
+        <img src="promotion.jpg" class="img-fluid" alt="Promotion sur les lames de terrasses"></div>
+<br>
+
+
+
+        <p>*Ces zones sont obligatoires</p>
     <form id="formulaire" action="http://bienvu.net/script.php" method="post">
-        <p>*Ces zones sont obligatoires</p><br>
+
     <fieldset>
-        <legend>Vos coordonnées</legend>
-        <p><label for="nom">Votre nom*:</label><input type="text" name="nom" id="nom"></p>
-        <p><label for="prénom">Votre prénom*:</label><input type="text" name="prénom" id="prenom"></p>
+        <legend class="display-6"><b>Vos coordonnées</b></legend>
+        <div class="mb-3">
+        <label for="nom" class="form-label">Nom*:</label><input type="text" name="nom" id="nom" class="form-control" placeholder="Veuillez saisir votre nom">
+        </div>
 
-        <p>Sexe*: <input type="radio" name="sexe" value="Féminin" id="sexeF">Féminin
-        <input type="radio" name="sexe" value="Masculin" id="sexeM">Masculin</p>
+        <div class="mb-3">
+        <label for="prénom" class="form-label">Prénom*:</label><input type="text" name="prénom" id="prenom" class="form-control" placeholder="Veuillez saisir votre prénom">
+        </div>
 
-        <p>Date de naissance*: <label for="date"></label><input type="date" name="ddn" id="datedeNaissance"></p>
 
-        <p><label for="code_postal">Code postal*:</label><input type="text" name="code_postal" id="code_postal"></p>
-        <p><label for="adresse">Adresse:</label><input type="text" name="adresse" id="adresse"></p>
-        <p><label for="ville">Ville:</label><input type="text" name="ville" id="ville"></p>
-        <p><label for="email">Email*:</label><input type="text" name="email" id="email" placeholder="dave.loper@afpa.fr"></p> 
+
+        Sexe*:<br>
+        
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="sexe" value="Féminin" id="sexeF" value="option1">
+        <label class="form-check-label" for="sexeF">Féminin</label>
+        </div>
+
+        <div class="form-check form-check-inline mb-3">
+        <input class="form-check-input" type="radio" name="sexe" value="Masculin" id="sexeM" value="option2">
+        <label class="form-check-label" for="sexeM">Masculin</label>
+        </div>
+
+        <div class="mb-3">
+        <label for="date" class="form-label"></label>Date de naissance*:<input type="date" name="ddn" id="date" class="form-control">
+        </div>
+
+
+        <div class="mb-3">
+        <label for="code_postal" class="form-label">Code postal*:</label><input type="text" name="code_postal" id="code_postal" class="form-control">
+        </div>
+
+        <div class="mb-3">
+        <label for="adresse" class="form-label">Adresse:</label><input type="text" name="adresse" id="adresse" class="form-control">
+        </div>
+
+        <div class="mb-3">
+        <label for="ville" class="form-label">Ville:</label><input type="text" name="ville" id="ville" class="form-control">
+        </div>
+
+        <div class="mb-3">
+        <label for="email" class="form-label">Email*:</label><input type="text" name="email" id="email" class="form-control" placeholder="dave.loper@afpa.fr">
+        </div>
     </fieldset>
 
+
     <fieldset>
-        <legend>Votre demande</legend><br>
-        <label id="sujet" for="sujet">Sujet*</label> 
-        <select>
-            <option value="" id="remove">Veuillez sélectionner un sujet</option>
+        <legend class="display-6"><b>Votre demande</b></legend>
+
+        <label id="sujet" for="sujet">Sujet*</label>
+        <select class="form-select form-select-sm" aria-label="Small select example">
+            <option selected="" id="remove">Veuillez sélectionner un sujet</option>
             <option value="mes commandes">Mes commandes</option>
             <option value="question sur un produit">Question sur un produit</option>
             <option value="réclamation">Réclamation</option>
             <option value="autres">Autres</option>
         </select>
-        <br>
-    Votre question*<textarea name="votre question" rows="3" cols="18" id="votre_question"></textarea>
-    </fieldset>
+
+
+       <br> Votre question* : <br>
+
+        <div class="form-floating">
+            <textarea class="form-control" id="votre_question" style="height: 100px"></textarea>
+            <label for="floatingTextarea2"></label>
+          </div>
+
+    <!-- Votre question*<textarea name="votre question" rows="3" cols="18" id="votre_question"></textarea>
+    </fieldset>-->
 
     <br>
     <input type="checkbox" name="traitement informatique" value="traitement informatique" id="traitement_informatique">*J'accepte le traitement informatique de ce formulaire
+    <br><br>
 
-    <p><button type = "submit" name="Envoyer">Envoyer</button>
-    <button type ="reset" nam="Annuler">Annuler</button></p>
+    <button class="btn btn-primary" type="submit">Envoyer</button>
+    <button class="btn btn-primary" type="reset">Annuler</button>
 
 
+
+    <!-- <p><button type = "submit" name="Envoyer">Envoyer</button>
+    <button type ="reset" nam="Annuler">Annuler</button></p> -->
     </form>
 
-    <hr class="barre"><br>
+
+
+
+    <br><br>
     
     <footer>
-        <ul id="liste_bas">
-            <li class="espace_liste">Mentions légales</li>
-            <li class="espace_liste">Horaires</li>
-            <li class="espace_liste">Plan du site</li>
-        </ul>
-    </footer>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+              <a class="navbar text-white" href="#">Mentions légales</a>
+                    </li>
+                <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Horaires</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Plan du site</a>
+                  </li>
+                </ul>
+              </div>
+            </div> 
+          </nav>
+      </footer>
+
+</div>
 <script src="contact.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
