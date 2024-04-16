@@ -8,52 +8,117 @@
     <link rel="stylesheet" href="accueil.css">
 </head>
 <body>
-  <div class="container-fluid">
+  <div class="container">
+    
   <header>
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-              <img src="logo.png" alt="logo" width="150" height="110">
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <button type="button" class="btn btn-primary">Accueil</button>
-                  <button type="button" class="btn btn-primary">Catégorie</button>
-                  <button type="button" class="btn btn-primary">Plats</button>
-                  <button type="button" class="btn btn-primary">Contact</button>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg bg-dark rounded">
+          <img src="logo.png" alt="logo" width="150" height="110" class="mx-3" class="img-fluid">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                  <ul class="navbar-nav row justify-content-center"></ul>>
+                  <button type="button" class="btn btn-primary mx-5 px-4 rounded-pill couleurbouton">Accueil</button>
+                  <button type="button" class="btn btn-primary mx-5 px-4 rounded-pill couleurbouton">Catégorie</button>
+                  <button type="button" class="btn btn-primary mx-5 px-4 rounded-pill couleurbouton">Plats</button>
+                  <button type="button" class="btn btn-primary mx-5 px-4 rounded-pill couleurbouton">Contact</button>
+                   </ul>
                 </div>
-              </div>
+                </div>
+              </nav>
             </div>
-          </nav>
+          
   </header>
 
 
+
 <section>
-    <div class="row">
-    <img src="bg1.jpeg" class="img-fluid" alt="bandereau" title="bandereau" width="50" height="auto">
-    <form method="post"> <!--rajouter form="action"-->
-        <input type="text" name="recherche" placeholder="Recherche...">
-    </form>
-    </div>
+<form method="post" id="recherche"> <!--rajouter form="action"-->
+  <input type="text" name="recherche" placeholder="Recherche...">
+</form>
+
+
+
+<div class="row">
+  <img src="bg1.jpeg" class="img-fluid" alt="bandereau" title="bandereau" id="bandereau">
 </section>
+
+    
+
 
 <br>
 
-<section>
+<div class="container">
   <div class="row">
-    <img src="wrap_cat.jpg" id="wrap" alt="wrap" title="wrap" class="col-4" width="auto" height="550">
-    <img src="sandwich_cat.jpg" id="sandwich" alt="sandwich" title="sandwich" class="col-4" width="auto" height="550">
-    <img src="pizza_cat.jpg" alt="pizza" title="pizza" class="col-4" width="auto" height="550">
-  </div><br>
-  <div class="row">
-    <img src="pasta_cat.jpg" alt="pate" title="pate" class="col-4" width="auto" height="550">
-    <img src="burger_cat.jpg" alt="burger" title="burger" class="col-4" width="auto" height="550">
-    <img src="asian_food_cat.jpg" alt="asianfood" title="asianfood" class="col-4" width="auto" height="550">
-  </div><br>
-  <div class="row">
-    <img src="pizza-margherita.jpg" alt="pizzamargarita" title="pizzamargarita" class="col-4" width="auto" height="300">
-    <img src="hamburger.jpg" alt="hamburger" title="hamburger" class="col-4" width="auto" height="300">
-    <img src="spaghetti-legumes.jpg" alt="spaghetti" title="spaghetti" class="col-4" width="auto" height="300">
+
+<span class="col-4">
+  <div id="categorie1">
+  <img src="wrap_cat.jpg" id="wrap" alt="wrap" title="wrap">
+  <p>Wrap</p>
   </div>
-</section>
+</span>
+
+<span class="col-4">
+  <div id="categorie2">
+  <img src="sandwich_cat.jpg" id="sandwichcat" alt="sandwich" title="sandwich">
+  <p>Sandwich</p>
+</div>
+</span>
+    
+<span class="col-4">
+<div id="categorie3">
+  <img src="pizza_cat.jpg" id="pizzacat" alt="pizza" title="pizza">
+  <p>Pizza</p>
+</div>
+</span>
+
+<span class="col-4">
+  <div id="categorie4">
+    <img src="pasta_cat.jpg" id="pastacat" alt="pate" title="pate">
+    <p>Pâte</p>
+  </div>
+  </span>
+
+
+<span class="col-4">
+  <div id="categorie5">
+    <img src="burger_cat.jpg" id="brugercat" alt="burger" title="burger">
+    <p>Burger</p>
+  </div>
+  </span>
+
+
+
+<span class="col-4">
+  <div id="categorie6">
+    <img src="asian_food_cat.jpg" id="asianfood" alt="asianfood" title="asianfood">
+    <p>Asiatique</p>
+  </div>
+  </span>
+
+<span class="col-4">
+  <div id="plat1">
+    <img src="pizza-margherita.jpg" id="pizzamargarita" alt="pizzamargarita" title="pizzamargarita">
+    <p>Plat 1</p>
+  </div>
+  </span>
+
+
+<span class="col-4">
+  <div id="plat2">
+    <img src="hamburger.jpg" id="hamburger" alt="hamburger" title="hamburger">
+  <p>Plat 2</p>
+  </div>
+  </span>
+
+<span class="col-4">
+  <div id="plat3">
+    <img src="spaghetti-legumes.jpg" id="spaghetti" alt="spaghetti" title="spaghetti">
+    <p>Plat 3</p>
+  </div>
+  </span>
+
+</div>
+</div>
 
 <br>
 
@@ -78,9 +143,7 @@
 
 
 
-
-
-    </div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

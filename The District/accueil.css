@@ -2,17 +2,145 @@ body{
     background-color: #29334B ;
 }
 
-#wrap{
-    border:solid;
-    background-color: #29334B ;
-    border-radius: 20px;
+.couleurbouton{
+    color: #E3A592;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+#recherche{
+    position: relative;
+    top:260px;
+    left: 250px;
+}
 
+#bandereau{
+    width: 1320px;
+    height: 300px;
+}
 
-/*border solid*/
+#wrap{
+    width: 280px;
+    height: 280px;
+    border-radius: 50px;
+    border:solid;
+    border:10px solid;
+}
 
+#categorie1{
+    display:block;
+    text-align:center;
+}
 
+#sandwichcat{
+    width: 280px;
+    height: 280px;
+    border-radius: 50px;
+    border:solid;
+    border:10px solid;
+}
+
+#categorie2{
+    display:block;
+    text-align: center;
+}
+
+#pizzacat{
+    width: 280px;
+    height: 280px;
+    border-radius: 50px;
+    border:solid;
+    border:10px solid;
+}
+
+#categorie3{
+    display:block;
+    text-align:center;
+}
+
+#pastacat{
+    width: 280px;
+    height: 280px;
+    border-radius: 50px;
+    border:solid;
+    border:10px solid;
+}
+
+#categorie4{
+    display:block;
+    text-align:center;
+}
+
+#brugercat{
+    width: 280px;
+    height: 280px;
+    border-radius: 50px;
+    border:solid;
+    border:10px solid;
+}
+
+#categorie5{
+    display:block;
+    text-align:center;
+}
+
+#asianfood{
+    width: 280px;
+    height: 280px;
+    border-radius: 50px;
+    border:solid;
+    border:10px solid;
+}
+
+#categorie6{
+    display:block;
+    text-align:center;
+}
+
+#pizzamargarita{
+    width: 280px;
+    height: 180px;
+    border-radius: 50px;
+    border:solid;
+    border:10px solid;
+}
+
+#plat1{
+    display:block;
+    text-align:center;
+}
+
+#hamburger{
+    width: 280px;
+    height: 180px;
+    border-radius: 50px;
+    border:solid;
+    border:10px solid;
+}
+
+#plat2{
+    display:block;
+    text-align:center;
+}
+
+#spaghetti{
+    width: 280px;
+    height: 180px;
+    border-radius: 50px;
+    border:solid;
+    border:10px solid;
+}
+
+#plat3{
+    display:block;
+    text-align:center;
+}
+
+p{
+    color:#E3A592;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px;
+}
 
 
 /*.parent {
