@@ -1,5 +1,6 @@
 body{
-    background-color: #29334B ;
+    background-color: #29334B;
+
 }
 
 .couleurbouton{
@@ -12,11 +13,17 @@ body{
     position: relative;
     top:260px;
     left: 250px;
+    background-color:#62426D;
+    border:solid;
+    border:3px solid;
+    border-color: black;
+    color:#E3A592;
+    border-radius: 10px;
 }
 
-#bandereau{
+#video{
     width: 1320px;
-    height: 300px;
+    height: 300px; /*auto*/
 }
 
 #wrap{
@@ -141,6 +148,56 @@ p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:25px;
 }
+
+#bandereaubas{
+    width: 558px;
+    height: 150px;
+    
+}
+
+#logogoogle{
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+#logoreddit{
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+#logoyoutube{
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+#logoinstagram{
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+#logofacebook{
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+#logotwitter{
+    width: 40px;
+    height: 40px;
+    
+}
+
+/*justify-content:center*/
+
 
 
 /*.parent {

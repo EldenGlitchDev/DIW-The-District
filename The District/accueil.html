@@ -32,15 +32,18 @@
 
 
 <section>
-<form method="post" id="recherche"> <!--rajouter form="action"-->
+  <div class="mb-3">
+    <label for="recherche" class="form-label"></label>
+    <input type="text" class="form-control-sm" id="recherche" placeholder="Recherche...">
+  </div>
+  
+<!-- <form method="post" id="recherche">                                      rajouter form="action"
   <input type="text" name="recherche" placeholder="Recherche...">
-</form>
-
-
-
+</form> -->
 <div class="row">
-  <img src="bg1.jpeg" class="img-fluid" alt="bandereau" title="bandereau" id="bandereau">
-</section>
+  <video src="/home/delplanque/Documents/MS DIW/The District/3768941-hd_1920_1080_25fps.mp4" loop autoplay muted alt="bandereau" title="bandereau" id="video">
+  </div>
+  </section>
 
     
 
@@ -123,13 +126,27 @@
 <br>
 
 <footer>
-    <img src="facebook_cover_photo_2.png" alt="facebooklogo" title="facebooklogo">
-    <img src="icons8-logo-google-48.png" alt="googlelogo" title="googlelogo">
-    <img src="icons8-reddit-48.png" alt="redditlogo" title="redditlogo">
-    <img src="icons8-youtube-48.png" alt="youtubelogo" title="youtubelogo">
-    <img src="icons8-instagram-48.png" alt="instagramlogo" title="instagramlogo">
-    <img src="icons8-facebook-48.png" alt="facebooklogo" title="facebooklogo">
-    <img src="icons8-twitter-48.png" alt="twitterlogo" title="twitterlogo">
+  <div class="container">
+    <div class="row">
+
+    <div class="d-flex justify-content-center">
+      <img src="icons8-logo-google-48.png" id="logogoogle" alt="googlelogo" title="googlelogo" class="col-1">
+      
+      <img src="icons8-reddit-48.png" id="logoreddit" alt="redditlogo" title="redditlogo" class="col-1">
+      
+      <img src="icons8-youtube-48.png" id="logoyoutube" alt="youtubelogo" title="youtubelogo" class="col-1">
+
+      <img src="facebook_cover_photo_1.png" id="bandereaubas" alt="facebooklogo" title="facebooklogo" class="col-6">
+
+      <img src="icons8-instagram-48.png" id="logoinstagram" alt="instagramlogo" title="instagramlogo" class="col-1">
+
+      <img src="icons8-facebook-48.png" id="logofacebook" alt="facebooklogo" title="facebooklogo" class="col-1">
+
+      <img src="icons8-twitter-48.png" id="logotwitter" alt="twitterlogo" title="twitterlogo" class="col-1">
+    </div>
+
+    </div>
+  </div>
 </footer>
 
 
