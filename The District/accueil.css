@@ -3,16 +3,20 @@ body{
 
 }
 
+#boutonderoulant{
+    background-color: #E3A592;
+}
+
 .couleurbouton{
     color: #E3A592;
     font-size: 30px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Georgia, serif;
 }
 
 #recherche{
     position: relative;
     top:260px;
-    left: 250px;
+    left: 550px;
     background-color:#62426D;
     border:solid;
     border:3px solid;
@@ -23,7 +27,8 @@ body{
 
 #video{
     width: 1320px;
-    height: 300px; /*auto*/
+    height: 300px;
+    background-color: #111b31;
 }
 
 #wrap{
@@ -32,6 +37,7 @@ body{
     border-radius: 50px;
     border:solid;
     border:10px solid;
+  
 }
 
 #categorie1{
@@ -145,7 +151,7 @@ body{
 
 p{
     color:#E3A592;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, serif;
     font-size:25px;
 }
 

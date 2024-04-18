@@ -1,0 +1,121 @@
+body{
+    background-color: #29334B;
+}
+
+#background-img{
+    height: 100vh;
+    width: 1296px;
+    background-image: url(ibg.jpg);
+    background-size: cover;
+}
+
+#boutonderoulant{
+    background-color: #E3A592;
+}
+
+.couleurbouton{
+    color: #E3A592;
+    font-size: 30px;
+    font-family:Georgia, serif;
+}
+
+#bandereaubas{
+    width: 558px;
+    height: 150px;
+    
+}
+
+#logogoogle{
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+#logoreddit{
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+#logoyoutube{
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+#logoinstagram{
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+#logofacebook{
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+#logotwitter{
+    width: 40px;
+    height: 40px;
+    
+}
+
+#imgcommande{
+    width: 280px;
+    height: 180px;
+    display:block;
+    /*justify-content:left;*/
+    justify-content:start;
+    /*border-radius: 50px;*/
+    /*border:solid;*/
+    /*border:10px solid;*/
+}
+
+#carreviolet{
+    background-color: #62426D;
+    border:solid;
+    border:2px solid;
+    height: auto;
+    width: 700px;
+    
+}
+
+#couleurtxt{
+    color: #F50B0B;
+    font-family: Georgia, serif;
+    font-size:12px;
+    font-weight: bold;
+}
+
+#NometPrenom{
+
+}
+
+#email{
+
+}
+
+#telephone{
+
+}
+
+#votreadresse{
+    
+}
+
+/*#text1{
+    display:block;
+    text-align: center;
+}
+
+#text2{
+    display:block;
+    margin-left: 65%;
+    margin-bottom: 30%;
+}*/
