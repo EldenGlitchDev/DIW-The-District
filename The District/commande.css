@@ -77,7 +77,7 @@ body{
     /*border:10px solid;*/
 }
 
-#carreviolet{
+#rectangleviolet{
     background-color: #62426D;
     border:solid;
     border:2px solid;
@@ -94,19 +94,34 @@ body{
 }
 
 #NometPrenom{
-
+    font-family: Georgia, serif;
+    font-size:20px;
+    font-weight: bold;
 }
 
 #email{
-
+    font-family: Georgia, serif;
+    font-size:20px;
+    font-weight: bold;
 }
 
 #telephone{
-
+    font-family: Georgia, serif;
+    font-size:20px;
+    font-weight: bold;
 }
 
 #votreadresse{
-    
+    font-family: Georgia, serif;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.txtrectangle{
+    font-family: Georgia, serif;
+    font-size:15px;
+    font-weight: bold;
+    color:white;
 }
 
 /*#text1{

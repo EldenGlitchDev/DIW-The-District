@@ -34,14 +34,14 @@
     <section class="container" id="background-img"><br>
 <div class="row justify-content-center">
 
-<div id="carreviolet" class="col-6 g-0">
+<div id="rectangleviolet" class="col-6 g-0">
     <!-- <div class="container p-0"> -->
       <div class="container p-0">
         <div class="row">
-        <img src="pizza-margherita.jpg" alt="pizza-margherita" title="pizza-margherita" id="imgcommande" class="col-1 ">
-        <!--<div id="text1" class="col-2">--><div class="col-2">Nom du plat</div>
-        <div class="col-3">Description du plat</div>
-        <!--<p id="text2">--><div class="col-2 justify-content-end">Quantité</div>
+        <img src="pizza-margherita.jpg" alt="pizza-margherita" title="pizza-margherita" id="imgcommande" class="col-1">
+        <!--<div id="text1" class="col-2">--><div class="col-2 txtrectangle">Nom du plat</div>
+        <div class="col-3 txtrectangle">Description du plat</div>
+        <!--<p id="text2">--><div class="col-2 justify-content-end mt-5 pt-5 txtrectangle">Quantité</div>
         </div>
     </div>
 </div>
@@ -50,49 +50,44 @@
 <br><br>
 
 <form>
+  <div class="container">
+    <div class="row">
   <div class="mb-3">
-    <label for="NometPrenom" class="form-label">Nom et prénom</label>
-    <input type="text" class="form-control" id="NometPrenom">
-<p id="couleurtxt">Ce champ est obligatoire</p>    
+    <label for="NometPrenom" class="form-label" id="NometPrenom">Nom et prénom</label>
+    <input type="text" class="form-control">
+<p id="couleurtxt">Ce champ est obligatoire</p>
   </div>
-  <div class="mb-3">
-    <label for="email" class="form-label">Email</label>
+  <div class="mb-3 col-6">
+    <label for="email" class="form-label" id="email">Email</label>
     <input type="email" class="form-control" id="email">
 <p id="couleurtxt">Ce champ est obligatoire</p>
   </div>
-  <div class="mb-3">
-    <label for="telephone" class="form-label">Téléphone</label>
-    <input type="number" class="form-control" id="telephone">
+  <div class="mb-3 col-6">
+    <label for="telephone" class="form-label" id="telephone">Téléphone</label>
+    <input type="text" class="form-control">
 <p id="couleurtxt">Ce champ est obligatoire</p>
   </div>
   <div class="mb-3">
-    <label for="votreadresse" class="form-label">Votre adresse</label>
-    <textarea class="form-control" id="votreadresse" rows="3"></textarea>
+    <label for="votreadresse" class="form-label" id="votreadresse">Votre adresse</label>
+    <textarea class="form-control" rows="3"></textarea>
 <p id="couleurtxt">Ce champ est obligatoire</p>    
   </div>
+</div>
+</div>
 
 
 
 
-
-
-
-
+<div class="container">
+  <div class="row justify-content-end">
+  <button type="button" class="btn btn-primary col-3">Envoyer</button>
+</div>
+</div>
 </form>
-
-
-
-
-
-
-
-
 
 
 </section>
         
-
-
     <br>
 
     <footer>
@@ -106,7 +101,7 @@
             
             <img src="icons8-youtube-48.png" id="logoyoutube" alt="youtubelogo" title="youtubelogo" class="col-1">
       
-            <img src="facebook_cover_photo_1.png" id="bandereaubas" alt="facebooklogo" title="facebooklogo" class="col-6">
+            <img src="facebook_cover_photo_1-removebg-preview.png" id="bandereaubas" alt="bandereaubas" title="bandereaubas" class="col-6">
       
             <img src="icons8-instagram-48.png" id="logoinstagram" alt="instagramlogo" title="instagramlogo" class="col-1">
       
