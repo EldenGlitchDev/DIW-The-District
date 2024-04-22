@@ -1,12 +1,6 @@
 body{
     background-color: #29334B;
-}
 
-#background-img{
-    height: 100vh;
-    width: 1296px;
-    background-image: url(ibg.jpg);
-    background-size: cover;
 }
 
 #boutonderoulant{
@@ -21,8 +15,7 @@ body{
 
 #bandereaubas{
     width: 558px;
-    height: 150px;
-    
+    height: 150px; 
 }
 
 #logogoogle{
@@ -52,18 +45,15 @@ body{
     
 }
 
-
 #logofacebook{
     width: 40px;
     height: 40px;
     
 }
 
-
 #logotwitter{
     width: 40px;
-    height: 40px;
-    
+    height: 40px;    
 }
 
 #image{
@@ -72,34 +62,18 @@ body{
     background-color: #111b31;
 }
 
-#couleurtxt{
-    color: #F50B0B;
+.bprecsuiv{
+    color:#E3A592;
     font-family: Georgia, serif;
-    font-size:12px;
-    font-weight: bold;
+    background-color: #62426D;
+    border-color: black;
 }
 
-#NometPrenom{
+#titre{
+    background-color: #62426D;
+    border:2px solid;
+    border-radius: 8px;
+    color:#E3A592;
     font-family: Georgia, serif;
-    font-size:20px;
-    font-weight: bold;
+    text-align: center;
 }
-
-#email{
-    font-family: Georgia, serif;
-    font-size:20px;
-    font-weight: bold;
-}
-
-#telephone{
-    font-family: Georgia, serif;
-    font-size:20px;
-    font-weight: bold;
-}
-
-#votreadresse{
-    font-family: Georgia, serif;
-    font-size:20px;
-    font-weight: bold;
-}
-
