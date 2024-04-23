@@ -5,7 +5,7 @@ body{
 #background-img{
     height: 100vh;
     width: 1296px;
-    background-image: url(ibg.jpg);
+    background-image: url(../img/ibg.jpg);
     background-size: cover;
 }
 
@@ -66,24 +66,10 @@ body{
     
 }
 
-#imgcommande{
-    width: 280px;
-    height: 180px;
-    display:block;
-    /*justify-content:left;*/
-    justify-content:start;
-    /*border-radius: 50px;*/
-    /*border:solid;*/
-    /*border:10px solid;*/
-}
-
-#rectangleviolet{
-    background-color: #62426D;
-    border:solid;
-    border:2px solid;
-    height: auto;
-    width: 700px;
-    
+#image{
+    width: 1320px;
+    height: 300px;
+    background-color: #111b31;
 }
 
 #couleurtxt{
@@ -117,20 +103,3 @@ body{
     font-weight: bold;
 }
 
-.txtrectangle{
-    font-family: Georgia, serif;
-    font-size:15px;
-    font-weight: bold;
-    color:white;
-}
-
-/*#text1{
-    display:block;
-    text-align: center;
-}
-
-#text2{
-    display:block;
-    margin-left: 65%;
-    margin-bottom: 30%;
-}*/
