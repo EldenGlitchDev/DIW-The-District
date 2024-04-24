@@ -124,6 +124,14 @@ body{
     color:white;
 }
 
+.cardscolor{
+    background-color: #360E44 ;
+}
+
+.txtcolor{
+    color:white;
+}
+
 /*#text1{
     display:block;
     text-align: center;
