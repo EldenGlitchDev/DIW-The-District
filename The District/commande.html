@@ -70,27 +70,27 @@
 
 <br><br>
 
-<form>
+<form id="formulaire" method="post">
   <div class="container">
     <div class="row">
   <div class="mb-3">
-    <label for="NometPrenom" class="form-label" id="NometPrenom">Nom et prénom</label>
-    <input type="text" class="form-control">
+    <label for="NometPrenom" class="form-label" id="NometPrenomCSS">Nom et prénom</label>
+    <input type="text" class="form-control" id="NometPrenomJS">
 <p id="couleurtxt">Ce champ est obligatoire</p>
   </div>
   <div class="mb-3 col-6">
-    <label for="email" class="form-label" id="email">Email</label>
-    <input type="email" class="form-control" id="email">
+    <label for="email" class="form-label" id="emailCSS">Email</label>
+    <input type="email" class="form-control" id="emailJS">
 <p id="couleurtxt">Ce champ est obligatoire</p>
   </div>
   <div class="mb-3 col-6">
-    <label for="telephone" class="form-label" id="telephone">Téléphone</label>
-    <input type="text" class="form-control">
+    <label for="telephone" class="form-label" id="telephoneCSS">Téléphone</label>
+    <input type="text" class="form-control" id="telephoneJS">
 <p id="couleurtxt">Ce champ est obligatoire</p>
   </div>
   <div class="mb-3">
-    <label for="votreadresse" class="form-label" id="votreadresse">Votre adresse</label>
-    <textarea class="form-control" rows="3"></textarea>
+    <label for="votreadresse" class="form-label" id="votreadresseCSS">Votre adresse</label>
+    <textarea class="form-control" rows="3" id="votreadresseJS"></textarea>
 <p id="couleurtxt">Ce champ est obligatoire</p>    
   </div>
 </div>
@@ -101,7 +101,7 @@
 
 <div class="container">
   <div class="row justify-content-end">
-  <button type="button" class="btn btn-primary col-3">Envoyer</button>
+  <button class="btn btn-primary col-3" type="submit">Envoyer</button>
 </div>
 </div>
 </form>

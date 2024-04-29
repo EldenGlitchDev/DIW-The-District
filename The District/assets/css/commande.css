@@ -91,25 +91,25 @@ body{
     font-weight: bold;
 }
 
-#NometPrenom{
+#NometPrenomCSS{
     font-family: Georgia, serif;
     font-size:20px;
     font-weight: bold;
 }
 
-#email{
+#emailCSS{
     font-family: Georgia, serif;
     font-size:20px;
     font-weight: bold;
 }
 
-#telephone{
+#telephoneCSS{
     font-family: Georgia, serif;
     font-size:20px;
     font-weight: bold;
 }
 
-#votreadresse{
+#votreadresseCSS{
     font-family: Georgia, serif;
     font-size:20px;
     font-weight: bold;
