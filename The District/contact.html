@@ -41,31 +41,31 @@
     
     <br><br><br><br><br><br>
     
-    <form>
+    <form id="formulaire" method="post">
       <div class="container">
         <div class="row">
       <div class="mb-3 col-6">
-        <label for="NometPrenom" class="form-label" id="NometPrenom">Nom</label>
-        <input type="text" class="form-control">
+        <label for="NometPrenom" class="form-label" id="NometPrenomCSS">Nom</label>
+        <input type="text" class="form-control" id="NomJS">
     <p id="couleurtxt">Ce champ est obligatoire</p>
       </div>
       <div class="mb-3 col-6">
-        <label for="NometPrenom" class="form-label" id="NometPrenom">Prénom</label>
-        <input type="text" class="form-control">
+        <label for="NometPrenom" class="form-label" id="NometPrenomCSS">Prénom</label>
+        <input type="text" class="form-control" id="PrenomJS">
       </div>
       <div class="mb-3 col-6">
-        <label for="email" class="form-label" id="email">Email</label>
-        <input type="email" class="form-control" id="email">
+        <label for="email" class="form-label" id="emailCSS">Email</label>
+        <input type="email" class="form-control" id="emailJS">
     <p id="couleurtxt">Ce champ est obligatoire</p>
       </div>
       <div class="mb-3 col-6">
-        <label for="telephone" class="form-label" id="telephone">Téléphone</label>
-        <input type="text" class="form-control">
+        <label for="telephone" class="form-label" id="telephoneCSS">Téléphone</label>
+        <input type="text" class="form-control" id="telephoneJS">
     <p id="couleurtxt">Ce champ est obligatoire</p>
       </div>
       <div class="mb-3">
-        <label for="votreadresse" class="form-label" id="votreadresse">Votre adresse</label>
-        <textarea class="form-control" rows="3"></textarea>
+        <label for="votreadresse" class="form-label" id="votreadresseCSS">Votre demande</label>
+        <textarea class="form-control" rows="3" id="votreadresseJS"></textarea>
     <p id="couleurtxt">Ce champ est obligatoire</p>    
       </div>
     </div>
@@ -76,7 +76,7 @@
     
     <div class="container">
       <div class="row justify-content-end">
-      <button type="button" class="btn btn-primary col-3">Envoyer</button>
+      <button type="submit" class="btn btn-primary col-3">Envoyer</button>
     </div>
     </div>
     </form>
@@ -112,5 +112,6 @@
         </footer>
         </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
+    <script src="assets/js/contact.js"></script> 
+  </body>
     </html>
