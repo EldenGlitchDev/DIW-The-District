@@ -2,11 +2,6 @@ body{
     background-color:#7CC6DD;
 }
 
-ul{
-    text-align: center;
-    font-weight: bold;
-}
-
 .backgroundHeader{
     background-color:#1A657C;
 }
@@ -24,10 +19,6 @@ ul{
     color:white;
     font-weight: bold;
     text-align: center;
-}
-
-p{
-    font-weight: bold;
 }
 
 .footerColor{
