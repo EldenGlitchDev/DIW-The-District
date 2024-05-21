@@ -28,9 +28,11 @@ body{
 .titleFaction{
     background-color: #2C90BB;
     color:white;
+    font-size: 20px;
 }
 
-.cardColor{
-    background-color: #2C90BB;
-    color:white;
+.titleFaction1{
+    background-color: #112159;
+    color: white;
+    font-size: 25px;
 }
