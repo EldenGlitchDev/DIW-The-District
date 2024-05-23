@@ -34,3 +34,14 @@ body{
     background-color: #2C90BB;
     color:white;
 }
+
+.logoRS{
+    width: 60px;
+    height: 40px;
+    margin-top: 23px;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}

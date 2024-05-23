@@ -33,3 +33,9 @@ p{
 .footerColor{
     background-color: #1A657C;
 }
+
+.logoRS{
+    width: 60px;
+    height: 40px;
+    margin-top: 23px;
+}
