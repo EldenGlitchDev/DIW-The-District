@@ -53,7 +53,60 @@
         <tbody>
     </table>-->
 
+<?php
 
-    
+$Nbrcol=9;
+$Nbrligne=9;
+
+echo '<table border="1" width="400"';
+
+    echo '<tr>';
+    echo '<td>0</td>';
+
+    for($c=1;$c<$Nbrcol;$c++){
+        echo '<td>'.$c.'</td>';
+    }
+    echo '</tr>';
+
+    /*for ($l=1;$l<$Nbrligne;$l++){
+        echo '<tr>';
+            for ($c=1;$c<$Nbrcol;$c++){
+                switch($j==1){
+                case 0:
+                    echo"$j==1";
+                break;
+                case 1:
+                    echo"$i==$j";
+                break;
+                }
+
+            echo $l*$c;
+            echo '</td>';
+            }
+    echo ''
+    }*/
+
+    for($l=1;$l<=$Nbrligne;$l++) {
+        echo '<tr>';
+        for ($c=1; $c<=$Nbrcol; $c++) {
+           
+           if ($c==1) {
+              echo '<td>'.$l.'</td>';
+           }
+              if ($l==$c) {
+                 echo '<td>';
+              } else {
+                 echo '<td>';
+              }
+           echo $l*$c;
+           echo '</td>';
+        }
+        echo '</tr>';
+        $c=1;
+     }
+     echo '</table>';
+     ?>
+
+
 </body>
 </html>
