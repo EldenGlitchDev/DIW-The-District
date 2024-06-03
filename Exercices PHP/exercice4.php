@@ -58,12 +58,12 @@
 $Nbrcol=9;
 $Nbrligne=9;
 
-echo '<table border="1" width="400"';
+echo '<table border="1" width="700"';
 
     echo '<tr>';
     echo '<td>0</td>';
 
-    for($c=1;$c<$Nbrcol;$c++){
+    for($c=1;$c<=$Nbrcol;$c++){
         echo '<td>'.$c.'</td>';
     }
     echo '</tr>';
