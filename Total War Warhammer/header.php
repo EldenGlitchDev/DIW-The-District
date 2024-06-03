@@ -1,7 +1,7 @@
 <header>
         <nav class="navbar navbar-expand-lg backgroundHeader">
           <div class="container-fluid">
-            <img src="assets/img/Logo_Total_War_Warhammer.png" alt="logo" width="200" height="110" class="mx-3" class="img-fluid col-2">
+            <a href="index.php" id="cliqueacote"><img src="assets/img/Logo_Total_War_Warhammer.png" alt="logo" width="200" height="110" class="mx-3" class="img-fluid col-2"></a>
             <button class="navbar-toggler couleurbouton" id="boutonderoulant" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>

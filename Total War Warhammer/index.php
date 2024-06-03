@@ -10,6 +10,7 @@
     
 </head>
 <body>
+<script src="cliqueacote">
     <div class="container">
 
     <?php
