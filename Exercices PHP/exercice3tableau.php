@@ -11,11 +11,16 @@ $departements = array(
         echo $valeur."<br>";}
         echo $name;}
 */
+asort($departements);
 
-foreach($departements as $cle =>$valeur){
-    echo $valeur. "<br>";}
+foreach($departements as $key => $value){
+    echo $key . ' ( ' .count($departements[$key]) . ') <br>';
 
-
+foreach($value as $dep){
+    echo ' ' . $dep . '<br>';
+}
+echo '<br>';
+}
 
 
 
