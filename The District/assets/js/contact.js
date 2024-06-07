@@ -11,8 +11,8 @@ email=document.getElementById("emailJS").value
 telephone=document.getElementById("telephoneJS").value
 votreadresse=document.getElementById("votreadresseJS").value
 
-filtrechar = new RegExp(/^[A-Za-z]+$/)
-filtrenum = new RegExp("^([0-9]{5})+$")
+filtrechar = new RegExp(/^[A-Za-z\s]+$/)
+filtrenum = new RegExp("^([0-9]{10})+$")
 filtremail = new RegExp (/^[a-z0-9.-]+@[a-z0-9.-]+.[a-z0-9]+$/)
 
 resultat=filtrechar.test(Nom)

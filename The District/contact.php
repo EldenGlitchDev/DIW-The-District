@@ -27,31 +27,31 @@
     
     <br><br><br><br><br><br>
     
-    <form id="formulaire" method="post">
-      <div class="container">
+    <div class="container">
+        <form id="formulaire" action="scriptformulairecontact.php" method="post">
         <div class="row">
       <div class="mb-3 col-6">
         <label for="NometPrenom" class="form-label" id="NometPrenomCSS">Nom</label>
-        <input type="text" class="form-control" id="NomJS">
+        <input type="text" name="nom" class="form-control" id="NomJS">
     <p id="couleurtxt">Ce champ est obligatoire</p>
       </div>
       <div class="mb-3 col-6">
         <label for="NometPrenom" class="form-label" id="NometPrenomCSS">Prénom</label>
-        <input type="text" class="form-control" id="PrenomJS">
+        <input type="text" name="prenom" class="form-control" id="PrenomJS">
       </div>
       <div class="mb-3 col-6">
         <label for="email" class="form-label" id="emailCSS">Email</label>
-        <input type="email" class="form-control" id="emailJS">
+        <input type="email" name="email" class="form-control" id="emailJS">
     <p id="couleurtxt">Ce champ est obligatoire</p>
       </div>
       <div class="mb-3 col-6">
         <label for="telephone" class="form-label" id="telephoneCSS">Téléphone</label>
-        <input type="text" class="form-control" id="telephoneJS">
+        <input type="text" name="telephone" class="form-control" id="telephoneJS">
     <p id="couleurtxt">Ce champ est obligatoire</p>
       </div>
       <div class="mb-3">
         <label for="votreadresse" class="form-label" id="votreadresseCSS">Votre demande</label>
-        <textarea class="form-control" rows="3" id="votreadresseJS"></textarea>
+        <textarea class="form-control" name="votreadresse" rows="3" id="votreadresseJS"></textarea>
     <p id="couleurtxt">Ce champ est obligatoire</p>    
       </div>
     </div>

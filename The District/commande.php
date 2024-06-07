@@ -39,44 +39,31 @@
 </div>
 </div>
 
-
-<!--<div id="rectangleviolet" class="col-6 g-0">
-    
-      <div class="container p-0">
-        <div class="row">
-        <img src="assets/img/food/pizza-margherita.jpg" alt="pizza-margherita" title="pizza-margherita" id="imgcommande" class="col-1">
-        <div class="col-2 txtrectangle">Nom du plat</div>
-        <div class="col-3 txtrectangle">Description du plat</div>
-        <div class="col-2 justify-content-end mt-5 pt-5 txtrectangle">Quantité</div>
-        </div>
-    </div>
-</div>-->
-
 </div>
 
 <br><br>
 
-<form id="formulaire" method="post">
-  <div class="container">
+<div class="container">
+    <form id="formulaire" action="scriptformulairecommande.php" method="post">
     <div class="row">
   <div class="mb-3">
     <label for="NometPrenom" class="form-label" id="NometPrenomCSS">Nom et prénom</label>
-    <input type="text" class="form-control" id="NometPrenomJS">
+    <input type="text" name="NometPrenom" class="form-control" id="NometPrenomJS">
 <p id="couleurtxt">Ce champ est obligatoire</p>
   </div>
   <div class="mb-3 col-6">
     <label for="email" class="form-label" id="emailCSS">Email</label>
-    <input type="email" class="form-control" id="emailJS">
+    <input type="email" name="email" class="form-control" id="emailJS">
 <p id="couleurtxt">Ce champ est obligatoire</p>
   </div>
   <div class="mb-3 col-6">
     <label for="telephone" class="form-label" id="telephoneCSS">Téléphone</label>
-    <input type="text" class="form-control" id="telephoneJS">
+    <input type="text" name="telephone" class="form-control" id="telephoneJS">
 <p id="couleurtxt">Ce champ est obligatoire</p>
   </div>
   <div class="mb-3">
     <label for="votreadresse" class="form-label" id="votreadresseCSS">Votre adresse</label>
-    <textarea class="form-control" rows="3" id="votreadresseJS"></textarea>
+    <textarea class="form-control" name="votreadresse" rows="3" id="votreadresseJS"></textarea>
 <p id="couleurtxt">Ce champ est obligatoire</p>    
   </div>
 </div>
