@@ -8,11 +8,11 @@ echo "<br>";
 echo date("H:i:s");*/
 
 date_default_timezone_set("Europe/Paris");
-$Date= DateTime::createFromFormat("d/m/Y H:i:s", "14/07/2019");
-echo $date;
+$date= new DateTime('2019-07-14');
+$weekNumber = $date->format('W');
+echo "Numéro de semaine est : $weekNumber";
 
 
-/*$numero_semaine=date("W", $timestamp);
-echo "le numéro de la semaine est ". $date;*/
+
 
 ?>
